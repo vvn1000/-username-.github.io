@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <title>Word Search</title>
+
+    <style>
+
+      .header {
+	  background-color: lightgray;
+	  padding: 10px;
+	  text-align: center;
+      }
+      
+      ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: black;
+      }
+
+      li {
+	  float: right;
+      }
+
+      li a {
+	  display: block;
+	  color: white;
+	  padding: 4px 20px;
+      }
+
+      li a:hover {
+	  background-color: lightblue;
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+
+    <div class="header">
+      <h1 id="heading">ISP Project</h1>
+    </div>
+    
+    <ul>
+      <li><h4><a href="index.html">Home</a></h4></li>
+      <li><h4><a href="project.html">Projects</a></h4></li>
+      <li><h4><a href="experience.html">Experience</a></h4></li>
+      <li id="li1"><h4><a href="Fingerprints.html">Fingerprints</a></h4></li>
+    </ul>
+    
+    <p><h3 id="p">Concept</h3></p>
+    <p id="p">For my ISP project I made a word search. The word search scrambled every time you refreshed the page, it<br>
+      had letters that could be clicked on, and a counter that tracked how many words you found. This allowed the game to <br>
+      be played multiple times with different outcomes.</p>
+    
+    <p><h3 id="p">Motivation</h3></p>
+    <p id="p">I decided to make a word search because it was one of the games I played the most on my phone when I was<br>
+      younger. Being able to make my own version of one of my most frequently played games was very fun and rewarding in a way.</p>
+
+    <p><h3 id="p">Code Segments</h3></p>
+    <p id="p">The "onEntityMouseClick" function takes the x and y coordinates of the point at which you clicked.<br>
+      It then takes the coordinate point and finds what letter is stored on the word search grid at that point.<br>
+      Finally, it highlights the letter you clicked on. This code creates the 15 x 15 2D array. The array is made of<br>
+      blank characters so that later on in the code the blank characters can be replaced with letters. This function<br>
+      goes through the grid and checks if each spot is blank. If the spot is blank, it places a random letter from the<br>
+      alphabet and moves on to the next. If the spot already has a letter stored in it, it moves on to the next. Before<br>
+      this function runs, a function to randomly place words on the grid is run.</p>
+    
+    
+    <p><h3 id="p">Conclusion</h3></p>
+    <p id="p">The finished game ended up working and was playable, but there were definitely parts that could be improved.<br>
+      One part that could be fixed would be the selecting system. Because of time constraints, I wasn't able to make it to <br>
+      where you could click and drag to select a word. Instead, you have to click each individual letter in the word you <br>
+      want to check. Once you have a whole word selected, you press the letter "s" on your keyboard to check the selected word<br>
+      against the key. Another idea I didn't get to add was a randomized word bank. With additional time, I would've added more <br>
+      words to the word bank and then randomized the words that got chosen. The final part that could be improved is the word bank<br>
+      that is displayed on the players screen. When you find a word in the game, the word turns green on the word search but <br>
+      doesn't get crossed out from the word bank. With additional time, I would've added that feature into the game.</p>
+
+      
+  </body>
+</html>
