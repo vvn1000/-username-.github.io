@@ -1,0 +1,51 @@
+#heading {
+    font-size: 300%;
+}
+
+#center {
+    text-align: center;
+}
+
+#p1link {
+    text-align: left;
+    font-size: 150%;
+}
+
+#p {
+    text-align: center;
+    font-size: 150%;
+}
+
+#p2link {
+    text-align: left;
+    font-size: 150%;
+    text-indent: 50px;
+}
+
+#p2 {
+    text-align: left;
+    font-size: 150%;
+    padding: 20px;
+    text-indent: 50px;
+    border: 3px solid gray;
+}
+
+#ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#li1 {
+    float: right;
+}
+
+#picfing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 8px solid black;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Fingerprints.css">
+    <title>Fingerprints</title>
+    <style>
+
+      * {
+	  box-sizing: border-box;
+      }
+
+      body {
+	  margin: 0;
+      }
+      
+      .header {
+	  background-color: lightgray;
+	  padding: 10px;
+	  text-align: center;
+      }
+
+      .half {
+	  float: left;
+	  width: 50%;
+	  padding: 20px;
+      }
+
+      .row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+      }
+
+
+      li a {
+	  display: block;
+	  color: white;
+	  padding: 8px 20px;
+      }
+
+      li a:hover {
+	  background-color: lightblue;
+      }
+      
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1 id="heading">Fingerprints</h1>
+    </div>
+    
+
+    <ul id="ul1">
+      <li id="li1"><h4><a href="../../index.html">Home</a></h4></li>
+      <li id="li1"><h4><a href="../../project.html">Projects</a></h4></li>
+      <li id="li1"><h4><a href="../../experience.html">Experience</a></h4></li>
+    </ul>
+
+    <div class="row">
+      <div class="half">
+	<h1 id="center"><u>Cyber Security Basics</u></h1>
+	
+	<p id="p2">The internet is a massive network of data that flows around the world. Unfortunately, much of what&#39s on the internet is public and easily accessible to anyone who knows what they&#39re doing. Additionally, it is just as easy to make a website as it is to copy a website and redirect its traffic to a fake page. In the past, when the internet was only used for browsing websites, this didn&#39t matter as much. But now that many, if not most, of people&#39s transactions are done online, this is a real issue.</p><p id="p2"> The first HTTP websites never encrypted or secured their pages. This made them susceptible to the problems mentioned above. To fix this, a trusted third party called <q>Certificate Authorities</q> (CA) was created. Websites would go and prove their identity to these CA&#39s and in return, the CA&#39s would digitally sign the site&#39s security certificate. This certificate would then be checked when a browser was trying to provide a connection to the website. While this was a good thing for anyone who wanted to stay private, others weren&#39t as supportive of the new secure websites.</p><p id="p2"> Schools, employers, corporations, and other organizations wanted to be able to see what people did on their internet. To get around the HTTPS, they used HTTPS Proxy Appliances. Instead of connecting to the web server, the browser would connect to the HTTPS Proxy Appliance, which would then check all the data sent to it. This means whoever used these appliances had full access to anything the users entered on their browsers. Afterward, the data is re-encrypted and passed through a second connection to the website as if nothing happened. This is called SSL interception and while it can&#39t be prevented, it can be detected reliably.</p><p id="p2"> This is because of fingerprints. Cryptographic hashes can be created for every SSL certificate. These hashes are long algorithms that process every bit of information they see. This means that when just one bit inside this certificate is changed, around half of the fingerprint&#39s hash will change. While schools, employers, and other organizations are usually the ones using these proxies, hackers use them during MITM attacks.</p><p id="p2"> MITM (man in the middle) attacks also use a proxy or something similar to intercept the connection to the secure page, record all the data found, and then direct you back to the page you intended to go to. When this or some other type of cyber attack happens, there are systems in place to alert you. But hackers can also get around these alerts. When that happens, it is called a false-negative. If you are alerted of some type of problem but nothing is happening, it is called a false-positive.</p><p id="p2">Over the last couple of years, everything from grocery shopping to savings accounts has been moved online. In my opinion, it is not anyoneys right to see what websites I visit and what I do on those websites. To me, it is no different than someone watching everything I do throughout the day.</p>
+      </div>
+      
+      <div class="half">
+	<h1 id="center"><u>References</u></h1>
+	<p id="p1link">Gibson Research Corporation. (2020). <i>Fingerprints</i>.<br></p>
+	<p id="p2link"><a href="https://www.grc.com/fingerprints.htm#top">grc.com/fingerprints.htm#top</a></p>
+	<p id="p1link">Imperva. (2021). <i>Man in the middle (MITM) attack</i>.<br></p>
+	<p id="p2link"><a href="https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/">https://www.imperva.com/learn/application-security/man-in-the</a></p>
+	<p id="p1link">Security Boulevard. (2022). <i>Catching True Positives in Network Security</i>.<br></p>
+	<p id="p2link"><a href="https://securityboulevard.com/2022/01/catching-true-positives-in-network-security/">https://securityboulevard.com/2022/01/catching-true-positives</a></p>
+	<p id="p1link">Check Point. (2022). <i>What is SSL Inspection?</i>.<br></p>
+	<p id="p2link"><a href="https://www.checkpoint.com/cyber-hub/network-security/what-is-ssl-inspection/#">https://www.checkpoint.com/cyber-hub/network-security/what-is-ssl</a></P>
+      </div>
+    </div>
+    
+    <h1 id="center"><u>Fingerprint Authentication Flowchart</u></h1>
+    <img id="picfing" src="../../fingerprintflowchart2.png">
+    
+  </body>
+</html>

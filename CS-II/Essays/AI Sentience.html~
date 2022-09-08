@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Fingerprints.css">
+    <title>AI Sentience</title>
+    <style>
+
+      * {
+	  box-sizing: border-box;
+      }
+
+      body {
+	  margin: 0;
+      }
+      .header {
+	  background-color: lightgray;
+	  padding: 10px;
+	  text-align: center;
+      }
+
+      .half {
+	  float: left;
+	  width: 50%;
+	  padding: 20px;
+      }
+
+      .row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+      }
+
+      li a {
+	  display: block;
+	  color: white;
+	  padding: 8px 20px;
+      }
+
+      li a:hover {
+	  background-color: lightblue;
+      }
+      
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1 id="heading">AI Sentience</h1>
+    </div>
+
+    <ul id="ul1">
+      <li id="li1"><h4><a href="../../index.html">Home</a></h4></li>
+      <li id="li1"><h4><a href="../../project.html">Projects</a></h4></li>
+      <li id="li1"><h4><a href="../../experience.html">Experience</a></h4></li>
+    </ul>
+
+    <div class="row">
+      <div class="half">
+	<h1 id="center"><u>AI Sentience</u></h1>
+	
+      </div>
+      
+      <div class="half">
+	<h1 id="center"><u>References</u></h1>
+      </div>
+    </div>
+    
+  </body>
+</html>
+
