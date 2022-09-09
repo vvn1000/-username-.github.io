@@ -4,6 +4,20 @@ var i: Int
 
 var moreWords = true
 
+print("Hello!")
+print("This program sorts the words you enter alphabetically")
+/*
+var requiredWords = 2
+print("Please enter a word below")
+if requiredWords > 0 {
+    if let newWord = readLine() {
+        print("Please enter one more word")
+        let newWord2 = readLine() 
+    }
+    }
+    
+ */
+
 func swap (words:inout [String], firstIndex: Int, secondIndex: Int) {
     let temp = words[firstIndex]
     words[firstIndex] = words[secondIndex]
@@ -31,18 +45,20 @@ func sort () {
     }
 }
 
-while moreWords {
-    
-    if let input = readLine() {
+print("Please enter 2 words below. Type 'leave' when you're ready to sort your words!")
 
+while moreWords {
+    if let input = readLine() {
         if input == "leave" {
-            moreWords = false
+            print("---------------------------------")
             break
         }
         
         unsortedArray.append(input.lowercased())
     }
 }
+
+
 
 sort()
 
