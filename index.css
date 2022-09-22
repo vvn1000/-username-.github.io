@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+    color: black;
+}
 
 #isplink {
     text-align: left;
@@ -59,7 +63,7 @@
     font-size: 150%;
     padding: 20px;
     text-indent: 50px;
-    border: 3px solid gray;
+    border: 3px solid black;
 }
 
 #pic1 {
