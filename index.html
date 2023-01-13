@@ -1,90 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="index.css">
-    <title>Digital Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-
-      * {
-	  box-sizing: border-box;
-      }
-
-      body {
-	  margin: 0;
-      }
-      
-      .header {
-	  background-color: lightgray;
-	  padding: 10px;
-	  text-align: center;
-      }
-
-      .half {
-	  float: left;
-	  width: 50%;
-	  padding: 20px;
-      }
-
-      .row:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-      }
-
-      ul {
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-	  overflow: hidden;
-	  background-color: black;
-      }
-
-      li {
-	  float: right;
-      }
-
-      li a {
-	  display: block;
-	  color: white;
-	  padding: 4px 20px;
-      }
-
-      li a:hover {
-	  background-color: lightblue;
-      }
-      
-    </style>
+    <link rel="stylesheet" href="indexcssRe.css">
+    <link rel="stylesheet" href="styleText.css">
+    <link rel="stylesheet" href="styleTopBar.css">
+    <title>Digital Portfoli</title>
   </head>
   <body>
 
-    <div class="header">
-      <h1 id="heading">Digital Portfolio</h1>
+    <div class="tab" style="text-decoration: none;">    
+      <ul>
+	<div class="dig-box">
+	  <li><h1>Digital Portfolio</h1></li>
+	</div>
+	<li><h4><a href="projectRemade.html">Projects</a></h4></li>
+	<li><h4><a href="CS-II/Projects/optimalRemade.html">Optimal Sort</a></h4></li>
+	<li class="dropdown"><h4><a class="drpbtn" href="#">Experience</a></h4>
+	  <div class="dropdown-content">
+	    <a href="experience.html">Classes</a>
+	  </div>
+	<li class="dropdown"><h4><a class="drpbtn" href="#">Essays</a></h4>
+	  <div class="dropdown-content">
+	    <a href="CS-II/Essays/FingerprintsRemade.html">Fingerprints</a>
+	    <a href="CS-II/Essays/AISentienceRemade.html">AI Sentience</a>
+	  </div>
+	<li class="dropdown"><h4><a class="drpbtn" href="#">ISP</a></h4>
+	  <div class="dropdown-content">
+	    <a href="CS-II/Projects/ISP/Journal.html">Journal</a>
+	  </div>	  
+      </ul>
+    </div>
+
+    <div class="center">
+      <p id="homeFont">Home</p>
     </div>
     
-    <ul>
-      <li><h4><a href="project.html">Projects</a></h4></li>
-      <li><h4><a href="experience.html">Experience</a></h4></li>
-      <li id="li1"><h4><a href="CS-II/Essays/Fingerprints.html">Fingerprints</a></h4></li>
-      <li id="li1"><h4><a href="CS-II/Essays/AI Sentience.html">AI Sentience</a></h4></li>
-      <li id="li1"><h4><a href="CS-II/Projects/Optimal Sort.html">Optimal Sort</a></h4></li>
-    </ul>
+    
+    <div class="text-box">
+      <h2><u>About Me</u></h2>
+      <p>Hi, my name is Varun Natarajan and I'm currently a senior in high school in the Computer Science II class. Since elementary school I've been an avid video game player and that sparked my interest in computer science. Last year I finally got to start learning computer science. I learned the basics of Swift and html, which I am now using to make my digital portfolio! I also got the chance to create my own game which you can see in the "Projects" tab in the top right of the screen. After being in the class for just one year I am starting to see just how much and how often computer science is used in the world and I'm excited to learn more.</p>
 
-    
-    <br>
-    <br>
-    
-    <div class="row">
-      <div class="half">
-	<h1 id="center">About Me</h1>
-	<p id="intro">Hi, my name is Varun Natarajan and I'm currently a senior in high school in the Computer Science II class. Since elementary school I've been an avid video game player and that sparked my interest in computer science. Last year I finally got to start learning computer science. I learned the basics of Swift and html, which I am now using to make my digital portfolio! I also got the chance to create my own game which you can see in the "Projects" tab in the top right of the screen. After being in the class for just one year I am starting to see just how much and how often computer science is used in the world and I'm excited to learn more.</p>
-      </div>
+      <br>
       
-      <div class="half">
-	<h1 id="center">Why Is My Digital Portfolio Important To Me?</h1>
-	<p id="intro">My Digital Portfolio is important to me because as time passes, it is going to become a compilation of everything I've done. In the last year I've seen that most of the projects I've done have taken lots of my time and effort to complete. I want to be able to show those projects off, especially as the projects get longer and more impressive. Additionally, my Digital Portfolio is important to me because future employers are going to be able to see what I've done.</p>
-      </div>
+      <h2><u>Why Is My Digital Portfolio Important To Me?</u></h2>
+      <p>My Digital Portfolio is important to me because as time passes, it is going to become a compilation of everything I've done. In the last year I've seen that most of the projects I've done have taken lots of my time and effort to complete. I want to be able to show those projects off, especially as the projects get longer and more impressive. Additionally, my Digital Portfolio is important to me because future employers are going to be able to see what I've done.</p>
+    
     </div>
 
     
